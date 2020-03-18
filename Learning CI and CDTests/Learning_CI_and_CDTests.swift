@@ -20,8 +20,8 @@ class Learning_CI_and_CDTests: XCTestCase {
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+      let i = 0
+      XCTAssert(i == 0, "Demo Integer is not equal")
     }
 
     func testPerformanceExample() {

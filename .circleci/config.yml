@@ -1,4 +1,4 @@
-version: 2
+version: 1
 
 jobs:
   test:
@@ -9,6 +9,7 @@ jobs:
       - run: fastlane scan
       
 workflows:
+version: 1
   test_release:
     jobs:
       - test

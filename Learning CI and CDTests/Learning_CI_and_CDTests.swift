@@ -20,8 +20,8 @@ class Learning_CI_and_CDTests: XCTestCase {
     }
 
     func testExample() {
-      let i = 110
-      XCTAssert(i == 110, "Demo Integer is not equal")
+      let i = 1110
+      XCTAssert(i == 1110, "Demo Integer is not equal")
     }
 
     func testPerformanceExample() {

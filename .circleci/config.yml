@@ -1,0 +1,12 @@
+version: 2.1
+jobs:
+  test:
+    macos:
+      xcode: 11.3.0
+    steps:
+      - checkout
+      - run: fastlane scan
+ workflows:
+  test_release:
+    jobs:
+      - test

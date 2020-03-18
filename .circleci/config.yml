@@ -20,3 +20,9 @@ jobs:
       - store_artifacts:
           path: test_output
           destination: scan-output
+          
+workflows:
+version: 2.1
+build:
+jobs:
+- build
